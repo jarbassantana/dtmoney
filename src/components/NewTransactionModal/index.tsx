@@ -37,10 +37,12 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
 
                 <TransactionTypeContainer>
                     <button>
-                        <img src={incomeImg} alt="Entradas" />Entrada
+                        <img src={incomeImg} alt="Entradas" />
+                        <span>Entrada</span>
                     </button>
                     <button>
-                        <img src={outcomeImg} alt="Saidas" />Saída
+                        <img src={outcomeImg} alt="Saidas" />
+                        <span>Saída</span>
                     </button>
                 </TransactionTypeContainer>
 
